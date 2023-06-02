@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.home{
+  /* display: flex; */
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 400px auto 500px;
+  grid-template-rows: 500px 500px;
+  justify-content: space-around;
+}
+
+.form{
+  margin-top: 1%;
+}
+
+.input{
+  margin-left: 23px;
+}
+
+.label{
+  margin-right: 10px;
+}
+
+.ageinput{
+  margin-left: 30px;
+}
+
+.submit{
+  margin-top: 20px;
+  background-color: gray;
+}
+
+button:hover{
+  background-color: cornflowerblue;
+}
+
+h3{
+  color: gray;
+}
+
+.Ticketbooked{
+color: green;
+}
